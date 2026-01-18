@@ -11,7 +11,6 @@ def make_matrix(m, n, value):
             rows.append(value)
 
         matrix.append(rows)
-        #rows.clear()
 
     return matrix
 
