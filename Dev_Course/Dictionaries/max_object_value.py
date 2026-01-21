@@ -1,5 +1,6 @@
 def max_object_value(diction):
 
+    #Separating Keys from Values:
     values = []
     keys =[]
 
@@ -7,6 +8,8 @@ def max_object_value(diction):
         values.append(diction[key])
         keys.append(key)
 
+
+    # Finding the highest value:
     high_value = values[0]
 
     for i in range(1 , len(values)):
