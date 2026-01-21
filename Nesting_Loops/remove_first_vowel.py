@@ -4,7 +4,6 @@
 
 def remove_first_vowel(s):
 
-
     vowels = ["a" , "e" , "i" , "o" , "u"]
     new_str = ""
 
@@ -20,8 +19,6 @@ def remove_first_vowel(s):
 
 
     return new_str
-
-
 
 # Example usage:
 print(remove_first_vowel("volcano"))  # 'vlcano'
