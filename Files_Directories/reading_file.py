@@ -5,6 +5,9 @@ f = open("Files_Directories/config.txt", 'r')
 content = f.read(4)
 print(content)
 
+
+
+
 print(f.tell())# tell() method tells you which position the cursor is at
 
 #seek() method: used to move the cursor to a specific location
