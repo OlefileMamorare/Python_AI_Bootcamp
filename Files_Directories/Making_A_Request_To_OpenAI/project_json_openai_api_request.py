@@ -48,5 +48,7 @@ if response.status_code == 200:
     # and even emotions. It opens up a fascinating dialogue about the limits of human perception
     # and the potential for new ways of experiencing reality.
 
+
+
 else:
     print(f'Error: {response.status_code}\n{response.text}')
