@@ -19,3 +19,8 @@ import re
 post = 'Exploring the future with #ArtificialIntelligence and #MachineLearning! #AI #GenAI'
 hashtags = re.findall(r'#\w+', post)
 print(hashtags)
+
+
+# Using Anchors and Grouping for Precise Matching:
+# ^ - matches the start of a string
+# $ - matches the end of a string
