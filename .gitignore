@@ -1,0 +1,61 @@
+# =========================
+# Python cache & compiled files
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# =========================
+# Virtual environments
+# =========================
+venv/
+.env/
+.env*/
+.venv/
+
+# =========================
+# PyCharm / IntelliJ IDEA
+# =========================
+.idea/
+*.iml
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# Logs & temp files
+# =========================
+*.log
+*.tmp
+*.swp
+
+# =========================
+# OS-specific files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# Model files & large artifacts (AI/ML)
+# Uncomment if you generate models locally
+# =========================
+# *.h5
+# *.pkl
+# *.joblib
+# *.pt
+# *.onnx
+
+# =========================
+# Datasets (optional – depends on bootcamp rules)
+# =========================
+# data/
+# datasets/
+
+# =========================
+# Environment & secrets
+# =========================
+.env
+secrets.json
+config.yaml
