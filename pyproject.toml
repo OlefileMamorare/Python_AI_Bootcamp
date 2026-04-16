@@ -10,6 +10,7 @@ dependencies = [
     "ipykernel>=7.1.0",
     "ipython>=9.10.0",
     "openai>=2.15.0",
+    "pillow>=12.2.0",
     "python-dotenv>=1.2.1",
     "requests>=2.32.5",
 ]
