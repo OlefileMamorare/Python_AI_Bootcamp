@@ -32,3 +32,7 @@ print(grade)  # Output: {'John': 85, 'Alice': 90}
 #clear the dictionary
 grade.clear()
 print(grade)  # Output: {}
+
+#create a dictionary using dict() constructor
+student_info = dict(name='John', age=20, grade='A')
+print(student_info)  # Output: {'name': 'John', 'age': 20, 'grade': 'A'}
