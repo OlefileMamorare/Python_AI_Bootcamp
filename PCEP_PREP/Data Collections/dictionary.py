@@ -28,3 +28,7 @@ for score in grade.values():
 #remove a key-value pair from the dictionary
 del grade['Bob']    
 print(grade)  # Output: {'John': 85, 'Alice': 90}
+
+#clear the dictionary
+grade.clear()
+print(grade)  # Output: {}
